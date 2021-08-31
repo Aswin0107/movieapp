@@ -1,0 +1,8 @@
+{% extends 'common.html' %}
+{% block body %}
+<form method="post">
+  {% csrf_token %}
+  Are you want to delete
+  <input type="submit">
+</form>
+{% endblock %}
